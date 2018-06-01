@@ -68,12 +68,19 @@ Plusieurs syndicats, représentant notamment les éboueurs et électriciens, mè
 		</h3>
 	</div>
 	
-	<<div id="idTxt" name="zone_preparation">
+	<div id="idTxt" name="zone_preparation">
 		<h2>
-			News !!
+			Préparation
 		</h2>
 		<p>
-			Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+			Avant de commencer, il faut s’assurer  des points suivants dans le dépôt :<br/>
+            - Le dépôt doit être propre avec la commande : <span>git status</span><br/>
+            - Vous devez être dans la branche master : <span>git checkout master</span><br/>
+            - Vous devez configurer origin et upstream vers les dépôts github, c’est à dire le votre et celui de votre intégrateur : <span>git remote add upstream « lien vers le dépôt de l’intégrateur »</span><br/>
+        Si un de ces points n’est pas vérifié, corrigez le problème ! Pour corriger le problème de dépôt non propre, il suffit de faire <span>git add</span> ou <span>git commit</span><br/>
+            L’intégrateur doit répartir les rôles directement dans le fichiers HTML par exemple en nommant les <span>div</span>
+Une fois le fichier HTML créé, chacun met à jour sa version du fichier html sur le dépôt officiel. En cas de groupe important, scinder le groupe par rubrique.
+             
 		</p>
 		<h3>Source : <a href="#">blabla</a>
 		</h3>
